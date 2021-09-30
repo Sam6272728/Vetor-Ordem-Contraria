@@ -1,0 +1,20 @@
+Algoritmo "Vetor ao contrario"
+// Descrição   : É um algoritmo que lê um conjunto de 20 valores inteiros,
+//guarda em um vetor e escreve em ordem contrária.
+// Autor(a)    : Samantha Eufrásio Rocha
+
+Var
+vet:vetor[1..20] de inteiro
+i:inteiro
+Inicio
+   para i de 1 ate 20 faca
+        escreva("Digite o", i,"º número:")
+        leia(vet[i])
+   fimpara
+   escreval (" ")
+
+   escreval("A ordem contrária à original é:")
+   para i de 20 ate 1 passo -1 faca
+        escreva(vet[i])
+   fimpara
+Fimalgoritmo
